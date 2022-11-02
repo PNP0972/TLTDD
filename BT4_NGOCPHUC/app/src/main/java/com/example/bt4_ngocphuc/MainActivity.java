@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
         edtpassword=(EditText) findViewById(R.id.edittextpassword);
         btndangnhap=(Button) findViewById(R.id.buttondangnhap);
         btndangky=(Button) findViewById(R.id.buttondangky);
-        btnthoat=(Button) findViewById(R.id.buttonthoat);
     }
 
 }
