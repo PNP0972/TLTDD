@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingerActivity3"
+    android:background="@drawable/congan2">
+    <TextView
+        android:id="@+id/textviewdatg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#776E6A6A"
+        android:fontFamily="@font/aldrich"
+        android:rotationX="-2"
+        android:text="Tố Hữu"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/textViewttdatg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="#51FFFFFF"
+        android:text="Nguyễn Duy Ngọc sinh năm 1964 tại huyện Kim Động, tỉnh Hưng Yên.
+
+Ông từng giữ các chức vụ: Trưởng Công an huyện Thanh Trì, Trưởng phòng Cảnh sát giao thông đường bộ đường sắt (PC67) Công an thành phố Hà Nội (các năm 2009, 2010, 2011, hàm Thượng tá, năm 2012 hàm đại tá)[4][5][6][7].
+
+Tháng 7 năm 2012, ông là Đại tá, Chánh văn phòng Cơ quan Cảnh sát điều tra Công an thành phố Hà Nội (Trưởng phòng PC44 Công an TP. Hà Nội).[8]
+
+Ngày 6 tháng 3 năm 2013, Đại tá Nguyễn Duy Ngọc, Chánh văn phòng cơ quan Cảnh sát điều tra, Công an thành phố Hà Nội, nhận quyết định bổ nhiệm có thời hạn chức vụ Phó Giám đốc Công an thành phố Hà Nội.[9][10]
+
+Ngày 16 tháng 1 năm 2014, Đại tá Nguyễn Duy Ngọc - Phó Giám đốc Công an thành phố Hà Nội - được bổ nhiệm giữ chức vụ Thủ trưởng cơ quan Cảnh sát điều tra Công an thành phố Hà Nội thay cho Thiếu tướng Trần Thùy xin nghỉ hưu trước tuổi.[11]
+
+Ngày 28 tháng 11 năm 2016, Đại tá Nguyễn Duy Ngọc, Phó giám đốc kiêm Thủ trưởng Cơ quan Cảnh sát điều tra Công an thành phố Hà Nội được bổ nhiệm giữ chức Phó tổng cục trưởng Tổng cục Cảnh sát, Bộ Công an Việt Nam dưới quyền Tổng cục trưởng là Trung tướng Phan Văn Vĩnh.[12]
+
+Năm 2017, Nguyễn Duy Ngọc được thăng quân hàm Thiếu tướng.[13]"
+        android:textColor="#A9FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textviewdatg"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/textviewdatg"
+        app:layout_constraintTop_toBottomOf="@+id/textviewdatg"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <Button
+        android:id="@+id/buttonback2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_back"
+        android:textColor="#00222222"
+        app:layout_constraintBottom_toTopOf="@+id/textviewdatg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

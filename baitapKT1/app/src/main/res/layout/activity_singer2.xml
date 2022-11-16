@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingerActivity2"
+    android:background="@drawable/congan1">
+
+    <TextView
+        android:id="@+id/textviewdatg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#776E6A6A"
+        android:fontFamily="@font/aldrich"
+        android:rotationX="-2"
+        android:text="Phạm Ngọc Phục"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/textViewttdatg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#51FFFFFF"
+        android:text="1974 – 1979: học sinh khóa 6 Trường Công an Trung ương, sau đổi là Đại học An ninh nhân dân, nay là Học viện An ninh nhân dân
+
+Năm 2007: Thiếu tướng, Phó Tổng Cục trưởng Tổng cục An ninh, Bộ Công an
+
+Năm 2010: Trung tướng, Tổng Cục trưởng Tổng cục An ninh I, Bộ Công an
+
+8/2010: Được bổ nhiệm chức vụ Thứ trưởng Bộ Công an
+
+9/2014: Được phong thăng cấp từ Trung tướng lên Thượng tướng
+
+01/2016: Tại Đại hội đại biểu toàn quốc lần thứ XII của Đảng, được bầu vào Ban Chấp hành Trung ương Đảng. Tại Hội nghị lần thứ nhất Ban Chấp hành Trung ương Đảng, Thượng tướng Tô Lâm được bầu vào Bộ Chính trị.
+
+9/4/2016: Tại Kỳ họp thứ 11 Quốc hội Khóa XIII, Quốc hội phê chuẩn bổ nhiệm chức vụ Bộ trưởng Bộ Công an."
+        android:textColor="#A9FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textviewdatg"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/textviewdatg"
+        app:layout_constraintTop_toBottomOf="@+id/textviewdatg"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <Button
+        android:id="@+id/buttonback2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_back"
+        android:textColor="#00222222"
+        app:layout_constraintBottom_toTopOf="@+id/textviewdatg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

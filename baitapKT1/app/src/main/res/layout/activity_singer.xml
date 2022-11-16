@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingerActivity"
+    android:paddingTop="30dp">
+
+    <ImageView
+        android:id="@+id/imgHinhAnh"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="95dp"
+        android:layout_toRightOf="@id/imgHinhAnh"
+        android:text="Tên"
+        android:textColor="#00FF48"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ngheDanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ten"
+        android:layout_toRightOf="@id/imgHinhAnh"
+        android:paddingRight="200sp"
+        android:text="Cấp Bậc"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/quocGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ngheDanh"
+        android:layout_alignBottom="@+id/imgHinhAnh"
+        android:layout_marginBottom="-24dp"
+        android:layout_toRightOf="@id/imgHinhAnh"
+        android:text="Quốc Gia"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/soSaoBinhChon"
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/ngheDanh"
+        android:layout_alignBottom="@+id/quocGia"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="-78dp"
+        android:layout_marginTop="-11dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/quocGia"
+        android:layout_toRightOf="@id/ngheDanh"
+        android:drawableRight="@drawable/ic_baseline_star_border_24"
+        android:paddingLeft="10dp"
+        android:paddingTop="40sp"
+        android:text="số "
+        android:textColor="#EDEA17"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
